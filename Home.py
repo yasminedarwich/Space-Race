@@ -3,9 +3,8 @@ from PIL import Image
 import plotly.express as px
 import numpy as np 
 import pandas as pd 
-from plotly.offline import init_notebook_mode, iplot, plot
+import plotly.offline as py
 import plotly as py
-init_notebook_mode(connected=True)
 import plotly.graph_objs as go
 import seaborn as sns
 import matplotlib.pyplot as plt
